@@ -4,11 +4,11 @@
 
 Install and run json-server. You will need to:
 
-    - create your `db.json` file containing the JSON you want to serve
-      (with keys for the REST endpoint categories)
-    - npm install json-server --save-dev
-    - npx json-server --watch `db.json`
-    - check that it works
+- create your `db.json` file containing the JSON you want to serve
+  (with keys for the REST endpoint categories)
+- npm install json-server --save-dev
+- npx json-server --watch `db.json`
+- check that it works
 
 ## Retrieve your initial list of cars from the JSON server
 
