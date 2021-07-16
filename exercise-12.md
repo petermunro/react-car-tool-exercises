@@ -1,20 +1,23 @@
 # Exercise 12
 
-- Implement the Delete function. To do this, you will need to issue an HTTP DELETE request.
+- Implement the Delete function. When the user hits a Delete
+  button, the car should be removed from the server.
 
-In `fetch`:
+  To do this, you will need to issue an HTTP DELETE request.
 
-```javascript
-fetch('http://myserver/cars/1', { method: 'DELETE' })
-.then(res => res.json())
-.then(...)
-```
+  In `fetch`:
 
-Or in `axios`:
+  ```javascript
+  fetch('http://myserver/cars/1', { method: 'DELETE' })
+  .then(res => res.json())
+  .then(...)
+  ```
 
-```javascript
-axios.delete('http://myserver/cars/1')
-.then(...)
-```
+  Or in `axios`:
+
+  ```javascript
+  axios.delete('http://myserver/cars/1')
+  .then(...)
+  ```
 
 - Check that it works!
